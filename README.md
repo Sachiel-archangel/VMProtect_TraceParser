@@ -18,6 +18,7 @@ This allows you to understand the API calls required to statically analyze the c
 * The version of VMProtect used in the malware when this tool was developed is unknown.
 
 ## 使い方
+*How to use in English is at the bottom of the page.  
 IDAを用いてFunction Traceを取得します。  
 操作例は以下の通り。  
 <br>
