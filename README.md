@@ -21,5 +21,12 @@ This allows you to understand the API calls required to statically analyze the c
 IDAを用いてFunction Traceを取得します。  
 操作例は以下の通り。  
 
+1. 「Debugger setup」ダイアログで、エントリーポイントでデバッガが停止するように設定する。
+2. デバッグを実行し、エントリーポイントで停止する。
+3. Debugger->Tracing->Tracing options でダイアログを開き、トレースログファイルの出力と「Log return instructions」をチェックする。
+4. Debugger->Tracing->Function tracing でトレースを開始する。
+5. デバッグを再開する。 *トレースを出力しながらのデバッガの実行は時間がかかります。
+6. 任意の箇所で停止し、トレースログファイルを取得する。
+
 ## How to Use
 
