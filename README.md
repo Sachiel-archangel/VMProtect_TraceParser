@@ -20,7 +20,7 @@ This allows you to understand the API calls required to statically analyze the c
 ## 使い方
 IDAを用いてFunction Traceを取得します。  
 操作例は以下の通り。  
-
+<br>
 1. 「Debugger setup」ダイアログで、エントリーポイントでデバッガが停止するように設定する。  
 ![image1](https://github.com/Sachiel-archangel/VMProtect_TraceParser/blob/main/image/01_IDA_Debugger_Setup.png)
 
@@ -40,7 +40,12 @@ IDAを用いてFunction Traceを取得します。
 <br>
 <br>
 トレースログの取得ができたら、コマンドプロンプトを起動します。
-ツールの置いてあるフォルダに移動し、トレースログを読み込ませて実行します。
+ツールの置いてあるフォルダに移動し、トレースログを読み込ませて実行します。  
+<br>
+*オプション*
+-d 入力されるトレースファイル名 (デフォルト：data.log)
+-o 出力される解析結果ファイル名（デフォルト：output.txt）
+<br>
 
 
 ## How to Use
