@@ -37,6 +37,10 @@ IDAを用いてFunction Traceを取得します。
 ![image5](https://github.com/Sachiel-archangel/VMProtect_TraceParser/blob/main/image/05_IDA_Resume.png)
 
 6. 任意の箇所で停止し、トレースログファイルを取得する。  
+<br>
+<br>
+トレースログの取得ができたら、コマンドプロンプトを起動します。
+ツールの置いてあるフォルダに移動し、トレースログを読み込ませて実行します。
 
 
 ## How to Use
