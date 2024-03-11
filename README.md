@@ -57,6 +57,12 @@ IDAを用いてFunction Traceを取得します。
 ![image13](https://github.com/Sachiel-archangel/VMProtect_TraceParser/blob/main/image/13_parsedlog_70.png)
   
 <br>
-  
+
+解析結果を復号化された.textセクションのコードに反映させることで、静的解析に利用することができる。  
+以下の図では、解析結果のAPIコールをIDAのnコマンドでリネームした例。  
+
+![image14](https://github.com/Sachiel-archangel/VMProtect_TraceParser/blob/main/image/14_IDA_ParsedCode.png)
+
+
 ## How to Use
 
