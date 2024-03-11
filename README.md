@@ -46,7 +46,7 @@ IDAを用いてFunction Traceを取得します。
 -d 入力されるトレースファイル名 (デフォルト：data.log)
 -o 出力される解析結果ファイル名（デフォルト：output.txt）
 <br>
-
+![image11](https://github.com/Sachiel-archangel/VMProtect_TraceParser/blob/main/image/11_command.png)
 
 ## How to Use
 
