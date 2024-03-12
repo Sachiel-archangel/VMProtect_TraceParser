@@ -17,6 +17,9 @@ This allows you to understand the API calls required to statically analyze the c
 * Depending on the version of VMProtect, it may not be possible to analyze correctly.
 * The version of VMProtect used in the malware when this tool was developed is unknown.
 
+## 開発環境 Development environment
+Microsoft Visual Studio 2022  
+
 ## 使い方
 *How to use in English is at the bottom of the page.  
 IDAを用いてFunction Traceを取得します。  
